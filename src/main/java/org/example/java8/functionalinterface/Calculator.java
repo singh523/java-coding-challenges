@@ -8,7 +8,7 @@ public interface Calculator {
         return a*b;
     }
 
-    default int substract(int a, int b){
+    default int subtract(int a, int b){
         return a-b;
     }
 
